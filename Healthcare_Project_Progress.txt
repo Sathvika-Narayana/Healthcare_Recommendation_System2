@@ -1,0 +1,52 @@
+
+🩺 Healthcare Recommendation System – Project Progress Summary
+==============================================================
+
+📅 Last Updated: 14-07-2025 11:55
+
+✅ PHASE 1: Core ML Logic
+--------------------------
+✔ Loaded & cleaned data from `health_plans.csv`
+✔ Seasonal logic integrated (e.g., June–Aug ➝ Hydration Plans)
+✔ Custom recommendation engine using symptom match scoring
+✔ Hooked into Streamlit for user interaction
+
+✅ PHASE 2: App Development
+----------------------------
+✔ Streamlit app built with:
+    • Input form for symptoms
+    • Personalized plan recommendations
+    • Feedback text area
+✔ Sentiment analysis using TextBlob (positive, neutral, negative)
+✔ Feedback logs saved per user (`logs_username.csv`)
+✔ Modular code structure: `recommendation.py`, `sentiment.py`, `logger.py`
+
+✅ PHASE 3: Admin Dashboard
+----------------------------
+✔ Admin role with login access
+✔ Admin-only dashboard via sidebar navigation:
+    • View all user logs
+    • Pie chart of sentiment distribution (Plotly)
+    • Bar chart of most recommended plans
+✔ User history view (last 5 entries, full logs)
+
+🔜 PHASE 4: Deployment & Documentation
+---------------------------------------
+• Deployment on Streamlit Cloud (optional - pending)
+• README.md file for GitHub or ZIP
+• App screenshots (pending)
+• Final ZIP export of clean project folder
+
+🧑‍💻 Access Control & Auth System
+---------------------------------
+✔ User registration & login using `users.csv`
+✔ Role-based access (user/admin)
+✔ Feedback is tracked per user
+✔ User-specific history tab
+
+📌 Additional Features
+-----------------------
+✔ Logout button with state reset
+✔ Feedback logger with timestamp + sentiment
+✔ Handles missing data & fallback gracefully
+
